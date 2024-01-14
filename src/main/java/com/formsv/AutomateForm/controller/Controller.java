@@ -46,7 +46,6 @@ import java.util.concurrent.TimeUnit;
 @CrossOrigin(origins = "*")
 @RestController()
 public class Controller {
-
     @Autowired
     UserService userService;
     @Autowired
